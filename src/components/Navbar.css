@@ -14,8 +14,9 @@ nav {
 
 .navbar ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     list-style: none;
+    flex-grow: 2;
 }
 
 .navbar ul li {

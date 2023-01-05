@@ -1,13 +1,12 @@
 import './App.css';
 import Navbar from './components/Navbar'
+import Welcome from './components/Welcome';
 
 const App = () => {
   return (
     <div className="App">
         <Navbar />
-        <p>
-            Bienvenidos
-        </p>
+        <Welcome />
     </div>
   );
 }
