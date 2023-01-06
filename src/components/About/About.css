@@ -1,0 +1,20 @@
+.about {
+    background-color: #E6E6E6;
+
+    min-height: 70vh;
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about h1 {
+    font-size: 64px;
+    text-align: left;
+}
+
+.about p {
+    font-size: large;
+    flex-grow: 2;
+    align-self: stretch;
+    text-align: left;
+}

@@ -10,6 +10,7 @@ nav {
     justify-content: space-between;
     max-width: 1280px;
     width: 100%;
+    padding: 0 10px;
 }
 
 .navbar ul {
