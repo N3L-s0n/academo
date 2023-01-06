@@ -1,8 +1,10 @@
 nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #E9E9E9;
     width: 100vw;
+    height: 50px;
 }
 
 .navbar {
