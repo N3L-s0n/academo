@@ -1,10 +1,10 @@
-import './Footer.css'
+import styles from './Footer.module.css'
 
 const Footer = () => {
     return(
-        <div className='footer'>
+        <div className={styles.footer}>
             <div>
-                <h3>academo</h3>
+                <h4>academo</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
             <div>
@@ -15,7 +15,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <h4>Correo electrónico</h4>
+                <h4>Correo</h4>
                 <ul>
                     <li>email@email.com</li>
                 </ul>

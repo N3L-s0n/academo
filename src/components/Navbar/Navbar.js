@@ -1,11 +1,11 @@
-import './Navbar.css'
+import styles from './Navbar.module.css'
 
 const Navbar = () => {
 
     return (
         <nav>
-            <div className="navbar">
-                <h3>Academo.</h3>
+            <div className={styles.navbar}>
+                <h4>Academo.</h4>
                 <ul>
                     <li>Inicio</li>
                     <li>Contactanos</li>
