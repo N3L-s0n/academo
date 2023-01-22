@@ -3,14 +3,28 @@ import ReactDOM from 'react-dom/client';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import './index.css';
 import App from './routes/App/App';
+import School from './routes/School/School';
+import HighSchool from './routes/HighSchool/HighSchool';
+
+import ErrorPage from './error-page';
+
+import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <App />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/school",
+    element: <School />
+  },
+  {
+    path: "/highschool",
+    element: <HighSchool />
   },
 ])
 

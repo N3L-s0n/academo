@@ -20,6 +20,7 @@ const App = () => {
               <p>
                   Si eres estudiante de escuela elige esta opción
               </p>
+              <a href='/school'>ir</a>
           </div>
 
           <div>
@@ -27,6 +28,7 @@ const App = () => {
               <p>
                   Si eres estudiante de colegio elige esta opción
               </p>
+              <a href='/highschool'>ir</a>
           </div>
         </div>
 
